@@ -752,7 +752,7 @@ textarea.input {
 }
 
 
-@media (max-width: 850px) {
+@media(max-width: 850px) {
 
 
     .contact .container .form{
@@ -765,13 +765,12 @@ textarea.input {
     
 }
 
-@media only screen and (width: 425px) {
+@media(max-width:425px) {
 
     .contact {
         height: 240vh;
         margin-top: 0px;
         margin-bottom: 0px;
-        
     }
 
     .contact .container .form{
