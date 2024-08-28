@@ -765,7 +765,7 @@ textarea.input {
     
 }
 
-@media only screen (width: 425px) {
+@media only screen and (width: 425px) {
 
     .contact {
         height: 240vh;
