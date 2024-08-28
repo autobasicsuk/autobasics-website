@@ -520,8 +520,8 @@ nav .home-link{
 
 
     .services {
-        height: 330vh;
-        margin-bottom: 0px;
+        height: 300vh;
+        margin-bottom: 80px;
     }
 
     .services .container{
@@ -752,7 +752,7 @@ textarea.input {
 }
 
 
-@media(max-width: 850px) {
+@media (max-width: 850px) {
 
 
     .contact .container .form{
@@ -765,16 +765,18 @@ textarea.input {
     
 }
 
-@media(max-width:425px) {
+@media (max-width: 425px) {
 
     .contact {
         height: 240vh;
         margin-top: 0px;
         margin-bottom: 0px;
+        
     }
 
     .contact .container .form{
-        margin-top: 200px;
+        height: 203vh;
+        margin-top: 0px;
         margin-bottom: 0px;
         width: 100%;
         max-width: 820px;
@@ -788,8 +790,8 @@ textarea.input {
     }
     
     .contact .container {
-        height: vh;
-        margin-top: -0px;
+        height: 250vh;
+        margin-top: 90px;
         width: 1000px;
     }
 
