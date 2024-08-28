@@ -765,7 +765,7 @@ textarea.input {
     
 }
 
-@media (max-width: 425px) {
+@media (width: 425px) {
 
     .contact {
         height: 240vh;
