@@ -296,6 +296,7 @@ nav .home-link{
         height: 200vh;
         display: grid;
         margin-top: 0px;
+        margin-bottom: 80px;
     }
 
     .home .home-container {
@@ -524,7 +525,7 @@ nav .home-link{
 
 
     .services {
-        height: 300vh;
+        height: 350vh;
         margin-bottom: 80px;
     }
 
@@ -533,7 +534,7 @@ nav .home-link{
         margin-left: 100px;
         padding: 320px 0px;
         grid-template-columns: 1fr;
-        grid-template-rows: 760px 840px 400px;
+        grid-template-rows: 960px 1130px 400px;
         grid-template-areas: 
         "box1"
         "box2"
@@ -541,57 +542,61 @@ nav .home-link{
     }
 
     .services-content .box1 h3 {
-        font-size: 2.4em;
+        font-size: 44px;
         margin-top: 50px;
         text-align: center;
     }
     
     .services-content .box1 h4 {
-        font-size: 1.5rem;
+        font-size: 30px;
         font-weight: 500;
         margin-top: 50px;
     
     }
     
     .services-content .box1 p2 {
-        font-size: 1.4rem;
+        font-size: 30px;
+        font-weight: 600;
     }
 
     .services-content .box1 ul {
-        font-size: 1.4rem;
+        font-size: 30px;
+        font-weight: 600;
     }
 
     .services-content .box2 h3 {
-        font-size: 2.4rem;
+        font-size: 44px;
         margin-top: 60px;
         text-align: center;
     }
     
     .services-content .box2 h4 {
-        font-size: 1.5rem;
+        font-size: 30px;
         font-weight: 500;
         margin-top: 50px;
     
     }
 
     .services-content .box2 p2 {
-        font-size: 1.4rem;
+        font-size: 30px;
+        font-weight: 600;
     }
     
     .services-content .box2 ul {
-        font-size: 1.4rem;
+        font-size: 30px;
+        font-weight: 600;
         margin-top: 33px;
         text-align: left;
         color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
-        font-size: 2.5rem;
+        font-size: 44px;
         margin-top: 55px;
         text-align: center;
     }
     .services-content .box3 h4 {
-        font-size: 1.4rem;
+        font-size: 30px;
         margin-top: 50px;
         text-align: center;
     }
@@ -716,7 +721,22 @@ textarea.input {
     color: #fff;
 }
 
+.contact .container .form .contact-info .social-media img {
+    height: 200px;
+    
+}
 
+.contact .container .form .contact-info .social-media a {
+    margin-left: 11px;
+    
+}
+
+.contact .container .form .contact-info .social-media a img {
+    width: 200px;
+    height: auto;
+    margin-left: 70px;
+    
+}
 
 .icon {
     width: 28px;
@@ -779,7 +799,7 @@ textarea.input {
     }
 
     .contact .container .form{
-        height: 203vh;
+        height: 215vh;
         margin-top: 0px;
         margin-bottom: 0px;
         width: 100%;
@@ -801,12 +821,13 @@ textarea.input {
 
 
     .contact .container .form .contact-info h3 {
-        font-size: 2.5rem;
+        font-size: 44px;
+        font-weight: 500;
         margin-bottom: 50px;
     }
 
     .contact .container .form .contact-info p {
-        font-size: 1.5rem;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -817,13 +838,30 @@ textarea.input {
     }
 
     .contact .container .form .contact-info .information p {
-        font-size: 1.5rem;
+        font-size: 30px;
         margin-bottom: 0px;
     }
 
     .contact .container .form .contact-info .social-media {
         margin-left: -80px;
         margin-top: 0px;
+    }
+
+    .contact .container .form .contact-info .social-media img {
+        height: 280px;
+        
+    }
+
+    .contact .container .form .contact-info .social-media a img {
+        width: 280px;
+        height: auto;
+        margin-left: 70px;
+        
+    }
+
+    .contact .container .form .contact-info a {
+        height: 10px;
+        
     }
 
 
