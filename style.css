@@ -39,7 +39,7 @@ header {
 
 /*-----------LOGO AND HEADER MEDIA QUERIES----------*/
 
-@media(max-width: 1024px){
+@media only screen and (max-width: 1024px){
     .logo img{
         height: 220px;
         width: auto;
@@ -47,14 +47,14 @@ header {
     }
 }
 
-@media(max-width: 800px){
+@media only screen and (max-width: 800px){
     .logo img{
         height: 250px;
         width: auto;
     }
 }
 
-@media(max-width: 425px){
+@media only screen and (max-width: 425px){
     .logo img{
         margin-left: 60px;
         margin-right: 100px;
@@ -63,7 +63,7 @@ header {
     }
 }
 
-@media(max-width: 320px){
+@media only screen and (max-width: 320px){
     .logo img{
         margin-left: -70px;
         margin-right: 100px;
@@ -73,7 +73,7 @@ header {
 }
 
 
-@media(max-width: 425px){
+@media only screen and (max-width: 425px){
     header{
         margin-top: 0px;
     }
@@ -126,7 +126,7 @@ nav .home-link{
     display: none;
 }
 
-@media(max-width: 800px){
+@media only screen and (max-width: 800px){
     .links-container{
         flex-direction: column;
         align-items: flex-start;
@@ -166,7 +166,7 @@ nav .home-link{
     }    
 }
 
-@media(max-width: 425px){
+@media only screen and (max-width: 425px){
     .links-container{
         flex-direction: column;
         align-items: flex-start;
@@ -291,7 +291,7 @@ nav .home-link{
     color: #fff;
 }
 
-@media(max-width:425px) {
+@media only screen and (max-width:425px) {
     .home {
         height: 200vh;
         display: grid;
@@ -752,7 +752,7 @@ textarea.input {
 }
 
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
 
 
     .contact .container .form{
@@ -765,7 +765,7 @@ textarea.input {
     
 }
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
     .contact {
         height: 240vh;
