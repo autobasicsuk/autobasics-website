@@ -305,7 +305,7 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 165vh;
+        height: 180vh;
         margin-top: 350px;
         width: 80%;
         max-width: 2000px;
@@ -330,19 +330,21 @@ nav .home-link{
     .home .home-container .home-box-item h1 {
         text-align: center;
         margin-top: 20px;
+        font-size: 44px;
     }
     
     .home .home-container .home-box-item p {
         text-align: left;
         margin-top: 50px;
         margin-bottom: 70px;
+        font-size: 27px;
 
     }
 
     .home .home-container .location {
         background-color: #2e4fdf;
         padding: 75px 75px;
-        font-size: 25px;
+        font-size: 30px;
         color: rgb(255, 255, 255);
         font-weight: 500;
         width: 80%;
@@ -350,13 +352,14 @@ nav .home-link{
     
      .home .home-container .location h1 {
         text-align: left;
-        font-size: 30px;
+        font-size: 44px;
         margin-top: 0px;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
     
     .home .home-container .location p {
         text-align: left;
+        font-size: 30px;
         margin-bottom: 30px;
     }
 
@@ -374,6 +377,7 @@ nav .home-link{
         transition: 0.3s;
         margin-left: 17px;
         text-decoration: none;
+        margin-top: 40px;
     }
     
     .home .btn:hover {
@@ -752,7 +756,7 @@ textarea.input {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media  only screen and (max-width: 850px) {
 
 
     .contact .container .form{
