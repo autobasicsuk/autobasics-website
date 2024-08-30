@@ -916,7 +916,6 @@ textarea.input {
         outline: none;
         cursor: pointer;
         transition: 0.3s;
-        margin-bottom: 30px;
     }
 
     textarea.input {
