@@ -183,6 +183,7 @@ nav .home-link{
         transition: 0.75s ease-out;
     }
     nav a{
+        font-size: 40px;
         box-sizing: border-box;
         height: auto;
         width: 100%;
