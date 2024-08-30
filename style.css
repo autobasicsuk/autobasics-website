@@ -177,8 +177,8 @@ nav .home-link{
         z-index: 10;
         width: 500px;
 
-        background: rgba(255, 255, 255, 0.158); /* Semi-transparent white background */
-        backdrop-filter: blur(10px); /* Blur effect */
+        background: rgba(255, 255, 255, 0.288); /* Semi-transparent white background */
+        backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
     }
