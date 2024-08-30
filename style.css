@@ -307,7 +307,7 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 175vh;
+        height: 167vh;
         margin-top: 350px;
         width: 80%;
         max-width: 2000px;
@@ -800,7 +800,7 @@ textarea.input {
     }
 
     .contact .container .form{
-        height: 215vh;
+        height: 230vh;
         margin-top: 0px;
         margin-bottom: 0px;
         width: 100%;
@@ -880,14 +880,14 @@ textarea.input {
     .title /*Email Us*/ {
         color: #fff;
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 44px;
         line-height: 1;
-        margin-bottom: 2rem;
+        margin-bottom: 30px;
     }
 
     .input-container {
         position: relative;
-        margin: 1.2rem 0;   
+        margin: 2rem 0;   
     }
 
     .input {
@@ -898,7 +898,7 @@ textarea.input {
         padding: 0.6rem 1.2rem;
         color: #fff;
         font-weight: 500;
-        font-size: 1.4rem;
+        font-size: 30px;
         letter-spacing: 0.5px;
         border-radius: 25px;
         transition: .3s;
@@ -908,7 +908,7 @@ textarea.input {
         padding: 1rem 1.8rem;
         background-color: #fff;
         border: 2px solid #fafafa;
-        font-size: 2rem;
+        font-size: 44px;
         font-weight: 600;
         color: #2e4fdf;
         line-height: 1;
@@ -921,7 +921,7 @@ textarea.input {
 
     textarea.input {
         padding: 0.8rem 1.2rem;
-        min-height: 200px;
+        min-height: 300px;
         border-radius: 22px;
         resize: none;
         overflow-y: auto;
