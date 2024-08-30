@@ -137,8 +137,8 @@ nav .home-link{
         z-index: 10;
         width: 300px;
 
-        background: rgba(255, 255, 255, 0.158); /* Semi-transparent white background */
-        backdrop-filter: blur(10px); /* Blur effect */
+        background: rgba(255, 255, 255, 0.562); /* Semi-transparent white background */
+        backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
     }
@@ -177,7 +177,7 @@ nav .home-link{
         z-index: 10;
         width: 500px;
 
-        background: rgba(255, 255, 255, 0.288); /* Semi-transparent white background */
+        background: rgba(255, 255, 255, 0.281); /* Semi-transparent white background */
         backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
@@ -292,6 +292,7 @@ nav .home-link{
     color: #fff;
 }
 
+
 @media only screen and (max-width:425px) {
     .home {
         height: 200vh;
@@ -307,7 +308,7 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 177vh;
+        height: 183vh;
         margin-top: 350px;
         width: 80%;
         max-width: 2000px;
@@ -321,7 +322,7 @@ nav .home-link{
    
     .home .home-container .home-box-item {
         padding: 60px 80px;
-        font-size: 25px;
+        font-size: 33px;
         color: black;
         font-weight: 500;
         margin-bottom: 0px;
@@ -338,8 +339,8 @@ nav .home-link{
     .home .home-container .home-box-item p {
         text-align: left;
         margin-top: 50px;
-        margin-bottom: 70px;
-        font-size: 27px;
+        margin-bottom: 60px;
+        font-size: 33px;
 
     }
 
@@ -361,7 +362,7 @@ nav .home-link{
     
     .home .home-container .location p {
         text-align: left;
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .home .btn {
@@ -376,7 +377,7 @@ nav .home-link{
         outline: none;
         cursor: pointer;
         transition: 0.3s;
-        margin-left: 17px;
+        margin-left: 10px;
         text-decoration: none;
         margin-top: 40px;
     }
@@ -788,6 +789,7 @@ textarea.input {
     }
     
 }
+
 
 @media only screen and (max-width: 425px) {
 
