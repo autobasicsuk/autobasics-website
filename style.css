@@ -136,6 +136,9 @@ nav .home-link{
     display: none;
 }
 
+
+/*MENU POP UP BAR*/
+
 @media only screen and (max-width: 1080px) {
     nav a {
         font-size: 25px;
@@ -153,7 +156,7 @@ nav .home-link{
         z-index: 10;
         width: 350px;
 
-        background: rgba(255, 255, 255, 0.562); /* Semi-transparent white background */
+        background: rgb(255, 255, 255); /* Semi-transparent white background */
         backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
@@ -194,7 +197,7 @@ nav .home-link{
         z-index: 10;
         width: 350px;
 
-        background: rgba(255, 255, 255, 0.562); /* Semi-transparent white background */
+        background: rgb(255, 255, 255); /* Semi-transparent white background */
         backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
@@ -235,7 +238,7 @@ nav .home-link{
         z-index: 10;
         width: 350px;
 
-        background: rgba(255, 255, 255, 0.281); /* Semi-transparent white background */
+        background: rgb(255, 255, 255); /* Semi-transparent white background */
         backdrop-filter: blur(20px); /* Blur effect */
         box-shadow: -5px 0 5px rgb(117, 117, 117);
         transition: 0.75s ease-out;
@@ -353,7 +356,7 @@ nav .home-link{
 
 
 
-
+/*HOME MEDIA QUERIES*/
 
 @media only screen and (max-width:1080px) {
     .home {
@@ -851,6 +854,9 @@ nav .home-link{
 
 }
 
+
+/*SERVICES MEDIA QUERIES*/
+
 @media only screen and (max-width:1080px) {
 
     .services {
@@ -1175,7 +1181,87 @@ nav .home-link{
         text-align: center;
     }
 }
+  
+@media only screen and (max-width:395px) {
+
+
+    .services {
+        height: 390vh;
+        margin-bottom: 0px;
+    }
+
+    .services .container{
+        width: 194%;
+        margin-left: 100px;
+        padding: 320px 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1220px 1330px 400px;
+        grid-template-areas: 
+        "box1"
+        "box2"
+        "box3";
+    }
+
+    .services-content .box1 h3 {
+        font-size: 44px;
+        margin-top: 70px;
+        text-align: center;
+    }
     
+    .services-content .box1 h4 {
+        font-size: 33px;
+        font-weight: 500;
+        margin-top: 50px;
+    
+    }
+    
+    .services-content .box1 p2 {
+        font-size: 33px;
+        font-weight: 600;
+    }
+
+    .services-content .box1 ul {
+        font-size: 33px;
+        font-weight: 600;
+    }
+
+    .services-content .box2 h3 {
+        font-size: 44px;
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .services-content .box2 h4 {
+        font-size: 33px;
+        font-weight: 500;
+        margin-top: 50px;
+    
+    }
+
+    .services-content .box2 p2 {
+        font-size: 33px;
+        font-weight: 600;
+    }
+    
+    .services-content .box2 ul {
+        font-size: 33px;
+        font-weight: 600;
+        margin-top: 33px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    .services-content .box3 h3 {
+        font-size: 44px;
+        margin-top: 55px;
+        text-align: center;
+    }
+    .services-content .box3 h4 {
+        font-size: 35px;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
 
 
 
@@ -1348,6 +1434,8 @@ textarea.input {
     padding: 5rem 0 0 0;
 }
 
+
+/*CONTACT FORM MEDIA QUESRIES*/
 
 @media  only screen and (max-width: 1080px) {
 
