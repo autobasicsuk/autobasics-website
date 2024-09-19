@@ -372,7 +372,7 @@ nav .home-link{
     }
     
     .home .home-container .box-item {
-        height: 60vh;
+        height: 67vh;
         margin-top: 180px;
         width: 80%;
         max-width: 1400px;
@@ -445,13 +445,13 @@ nav .home-link{
 
 @media only screen and (max-width:1080px) {
     .home {
-        height: 170vh;
+        height: 180vh;
         margin-top: -30px;
         margin-bottom: 0px;
     }
 
     .home .home-container {
-        height: 160vh;
+        height: 180vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -459,7 +459,7 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 132vh;
+        height: 152vh;
         margin-top: 300px;
         border-radius: 25px;
         display: grid;
@@ -541,13 +541,13 @@ nav .home-link{
 @media only screen and (max-width:800px) {
 
     .home {
-        height: 170vh;
+        height: 200vh;
         margin-top: -30px;
         margin-bottom: 0px;
     }
 
     .home .home-container {
-        height: 160vh;
+        height: 195vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -555,7 +555,7 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 137vh;
+        height: 160vh;
         margin-top: 300px;
         border-radius: 25px;
         display: grid;
@@ -642,7 +642,7 @@ nav .home-link{
 
     .home .home-container .box-item {
         height: 230vh;
-        margin-top: 1200px;
+        margin-top: 1050px;
         width: 95%;
         max-width: 1000px;
         display: grid;
@@ -736,7 +736,7 @@ nav .home-link{
 
     .home .home-container .box-item {
         height: 235vh;
-        margin-top: 1300px;
+        margin-top: 1000px;
         width: 95%;
         max-width: 1000px;
         display: grid;
@@ -814,7 +814,7 @@ nav .home-link{
 
 @media only screen and (max-width:395px) {
     .home {
-        height: 270vh;
+        height: 325vh;
         margin-top: 0px;
         margin-bottom: 250px;
     }
@@ -826,8 +826,8 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 260vh;
-        margin-top: 1300px;
+        height: 315vh;
+        margin-top: 1200px;
         width: 100%;
         max-width: 1000px;
         display: grid;
@@ -1034,7 +1034,7 @@ nav .home-link{
     }  
     
     .services {
-        height: 140vh;
+        height: 160vh;
     }
     
     .services .box1 {
@@ -1073,7 +1073,7 @@ nav .home-link{
 @media only screen and (max-width:1080px) {
 
     .services {
-        height: 280vh;
+        height: 320vh;
         margin-bottom: 0px;
     }
 
@@ -1089,7 +1089,7 @@ nav .home-link{
     }
 
     .services-content .box1 {
-        margin-top: -30px;
+        margin-top: 0px;
     }
 
     .services-content .box1 h3 {
@@ -1156,14 +1156,14 @@ nav .home-link{
 @media only screen and (max-width:800px) {
 
     .services {
-        height: 330vh;
+        height: 360vh;
         margin-bottom: 0px;
     }
 
     .services .container {
         margin-left: 0px;
         width: 1000px;
-        padding: 250px 100px;
+        padding: 200px 100px;
         grid-template-columns: 1000px;
         grid-template-rows: 850px 1090px 400px;
         grid-template-areas: 
@@ -1237,7 +1237,7 @@ nav .home-link{
 
 
     .services {
-        height: 480vh;
+        height: 435vh;
         margin-bottom: 0px;
     }
 
@@ -1318,7 +1318,7 @@ nav .home-link{
 
 
     .services {
-        height: 480vh;
+        height: 500vh;
     }
 
     .services .container{
@@ -1397,7 +1397,7 @@ nav .home-link{
 
 
     .services {
-        height: 500vh;
+        height: 680vh;
         margin-bottom: 0px;
     }
 
@@ -1647,8 +1647,8 @@ textarea.input {
 
 @media only screen and (max-width: 1200px) {
     .contact {
-        height: 100vh;
-        margin-top: 130px;
+        height: 90vh;
+        margin-top: 0px;
         display: grid; /* For modern browsers */
         background: white;
         font-size: 20px;
@@ -1660,7 +1660,7 @@ textarea.input {
     .contact .container {
         position: relative;
         width: 117%;
-        min-height: 100vh;
+        min-height: 110vh;
         padding: 140px;
         overflow: hidden;
         display: flex;
@@ -1669,7 +1669,7 @@ textarea.input {
     }
     
     .contact .container .form {
-        margin-top: 0px;
+        margin-top: 100px;
         width: 100%;
         max-width: 1200px;
         border-radius: 25px;
@@ -1814,15 +1814,15 @@ textarea.input {
 
     .contact {
         height: 0vh;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: -150px;
         
     }
 
     .contact .container {
+        height: 120vh;
+        margin-top: 130px;
         position: relative;
-        width: 119.3%;
-        min-height: 100vh;
+        width: 125%;
         padding: 140px;
         overflow: hidden;
         display: flex;
@@ -1950,8 +1950,8 @@ textarea.input {
 
     .contact .container {
         position: relative;
-        min-height: 100vh;
-        padding: 100px;
+        min-height: 280vh;
+        padding: 0px;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -1973,7 +1973,6 @@ textarea.input {
     }
 
     .contact .container {
-        margin-bottom: 0px;
         width: 1200px;
     }
     
@@ -2085,10 +2084,7 @@ textarea.input {
 @media only screen and (max-width: 500px) {
 
     .contact {
-        height: 400vh;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        
+        height: 310vh;
     }
 
     .contact .container .form{
@@ -2105,8 +2101,14 @@ textarea.input {
     }
     
     .contact .container {
-        margin-top: 90px;
-        width: 1190px;
+        margin-top: 300px;
+        position: relative;
+        min-height: 300vh;
+        padding: 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
@@ -2219,7 +2221,7 @@ textarea.input {
 @media only screen and (max-width: 425px) {
 
     .contact {
-        height: 360vh;
+        height: 370vh;
         margin-top: 0px;
         margin-bottom: 0px;
         
@@ -2240,7 +2242,14 @@ textarea.input {
     
     .contact .container {
         margin-top: 0px;
-        width: 1200px;
+        position: relative;
+        min-height: 360vh;
+        padding: 0px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 
 
@@ -2354,7 +2363,7 @@ textarea.input {
 @media only screen and (max-width: 395px) {
 
     .contact {
-        height: 400vh;
+        height: 440vh;
         margin-top: 0px;
         margin-bottom: 0px;
         
@@ -2374,8 +2383,13 @@ textarea.input {
     }
     
     .contact .container {
-        margin-top: 200px;
-        width: 1200px;
+        margin-top: 300px;
+        position: relative;
+        min-height: 440vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
