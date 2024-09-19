@@ -1318,7 +1318,7 @@ nav .home-link{
 
 
     .services {
-        height: 410vh;
+        height: 380vh;
     }
 
     .services .container{
@@ -2221,14 +2221,14 @@ textarea.input {
 @media only screen and (max-width: 425px) {
 
     .contact {
-        height: 250vh;
+        height: 230vh;
         margin-top: 0px;
         margin-bottom: 0px;
         
     }
 
     .contact .container .form{
-        margin-top: 260px;
+        margin-top: 150px;
         margin-bottom: 0px;
         width: 100%;
         background-color: rgb(255, 255, 255);
@@ -2243,7 +2243,7 @@ textarea.input {
     .contact .container {
         margin-top: 0px;
         position: relative;
-        min-height: 320vh;
+        min-height: 290vh;
         padding: 0px;
         overflow: hidden;
         display: flex;
