@@ -723,7 +723,7 @@ nav .home-link{
 
 @media only screen and (max-width:425px) {
     .home {
-        height: 300vh;
+        height: 250vh;
         margin-top: 0px;
         margin-bottom: 0px;
     }
@@ -735,8 +735,8 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 235vh;
-        margin-top: 1000px;
+        height: 200vh;
+        margin-top: 800px;
         width: 95%;
         max-width: 1000px;
         display: grid;
@@ -814,7 +814,7 @@ nav .home-link{
 
 @media only screen and (max-width:395px) {
     .home {
-        height: 325vh;
+        height: 230vh;
         margin-top: 0px;
         margin-bottom: 250px;
     }
@@ -826,8 +826,8 @@ nav .home-link{
     }
 
     .home .home-container .box-item {
-        height: 315vh;
-        margin-top: 1200px;
+        height: 200vh;
+        margin-top: 950px;
         width: 100%;
         max-width: 1000px;
         display: grid;
@@ -1318,7 +1318,7 @@ nav .home-link{
 
 
     .services {
-        height: 500vh;
+        height: 410vh;
     }
 
     .services .container{
@@ -1397,7 +1397,7 @@ nav .home-link{
 
 
     .services {
-        height: 680vh;
+        height: 410vh;
         margin-bottom: 0px;
     }
 
@@ -2221,7 +2221,7 @@ textarea.input {
 @media only screen and (max-width: 425px) {
 
     .contact {
-        height: 370vh;
+        height: 250vh;
         margin-top: 0px;
         margin-bottom: 0px;
         
@@ -2243,7 +2243,7 @@ textarea.input {
     .contact .container {
         margin-top: 0px;
         position: relative;
-        min-height: 360vh;
+        min-height: 320vh;
         padding: 0px;
         overflow: hidden;
         display: flex;
@@ -2363,7 +2363,7 @@ textarea.input {
 @media only screen and (max-width: 395px) {
 
     .contact {
-        height: 440vh;
+        height: 0vh;
         margin-top: 0px;
         margin-bottom: 0px;
         
@@ -2371,7 +2371,6 @@ textarea.input {
 
     .contact .container .form{
         margin-top: 0px;
-        margin-bottom: 0px;
         width: 100%;
         background-color: rgb(255, 255, 255);
         border-radius: 25px;
@@ -2383,9 +2382,9 @@ textarea.input {
     }
     
     .contact .container {
-        margin-top: 300px;
+        margin-top: 0px;
         position: relative;
-        min-height: 440vh;
+        min-height: 260vh;
         overflow: hidden;
         display: flex;
         align-items: center;
