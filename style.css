@@ -131,7 +131,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-    color: #ff5e00;
+    color: #ff843c;
 }
 
 nav .home-link{
@@ -149,8 +149,12 @@ nav .home-link{
 /*MENU POP UP BAR*/
 
 @media only screen and (max-width: 1080px) {
-    nav a {
+        /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        nav a {
         font-size: 25px;
+        color: #ff843c;
+        }
     }
 }
 
@@ -974,12 +978,25 @@ nav .home-link{
     text-align: center;
 }
 
+@media (prefers-color-scheme: dark) {
+    .services-content .box1 h3 {
+        color: #ffffff;
+    }
+}
+
+
 .services-content .box1 h4 {
     font-size: 1rem;
     font-weight: 500;
     margin-top: 30px;
-
 }
+
+@media (prefers-color-scheme: dark) {
+    .services-content .box1 h4 {
+        color: #ffffff;
+    }
+}
+
 
 .services-content .box1 p {
     font-size: 1rem;
@@ -988,6 +1005,13 @@ nav .home-link{
     color: rgb(0, 0, 0);
     font-weight: 2000;
 }
+
+@media (prefers-color-scheme: dark) {
+    .services-content .box1 p {
+        color: #ffffff;
+    }
+}
+
 
 .services-content .box2 h3 {
     font-size: 2rem;
@@ -1129,7 +1153,6 @@ nav .home-link{
         border-radius: 20px;
         padding: 10px 80px;
         font-family: 'Courier New', Courier, monospace;
-        color: #000000;
         text-align: left;
         box-shadow: 0 4px 6px rgb(109, 109, 109);
     
@@ -1140,7 +1163,6 @@ nav .home-link{
         border-radius: 20px;
         padding: 10px 80px;
         font-family: 'Courier New', Courier, monospace;
-        color: #ffffff;
         text-align: left;
         box-shadow: 0 4px 6px rgb(80, 80, 80);
     
@@ -1151,7 +1173,6 @@ nav .home-link{
         border-radius: 20px;
         padding: 10px 80px;
         font-family: 'Courier New', Courier, monospace;
-        color: #000000;
         text-align: center;
         box-shadow: 0 4px 6px rgb(83, 83, 83);
     }
@@ -1225,7 +1246,6 @@ nav .home-link{
         font-weight: 600;
         margin-top: 33px;
         text-align: left;
-        color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
@@ -1305,7 +1325,6 @@ nav .home-link{
         font-weight: 600;
         margin-top: 33px;
         text-align: left;
-        color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
@@ -1386,7 +1405,6 @@ nav .home-link{
         font-weight: 600;
         margin-top: 33px;
         text-align: left;
-        color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
@@ -1465,7 +1483,6 @@ nav .home-link{
         font-weight: 600;
         margin-top: 33px;
         text-align: left;
-        color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
@@ -1545,7 +1562,6 @@ nav .home-link{
         font-weight: 600;
         margin-top: 33px;
         text-align: left;
-        color: rgb(255, 255, 255);
     }
 
     .services-content .box3 h3 {
@@ -1695,7 +1711,7 @@ textarea.input {
 @media (prefers-color-scheme: dark) {
     .contact .btn {
         background-color: rgb(24, 40, 255);
-        color: #fff;
+        color: #ffffff;
     }
 }
 
@@ -2168,7 +2184,6 @@ textarea.input {
         padding: 0.8rem 1.5rem;
         font-size: 35px;
         font-weight: 600;
-        color: #2e4fdf;
         border-radius: 25px;
         outline: none;
         cursor: pointer;
