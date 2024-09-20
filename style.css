@@ -275,7 +275,7 @@ nav .home-link{
 
 
 .home {
-    height: 100vh;
+    height: 100svh;
     display: grid; /* For modern browsers */
 }
 
@@ -296,6 +296,15 @@ nav .home-link{
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1000px);
+}
+
+    /* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+        .home .home-container .box-item {
+            background-color: rgb(32, 30, 30);
+            border: 4px solid hsl(209, 100%, 55%);
+            box-shadow: none;
+        }
 }
 
 .home .home-container .home-box-item {
@@ -359,6 +368,89 @@ nav .home-link{
 
 /*HOME MEDIA QUERIES*/
 
+@media only screen and (max-width:1500px) {
+    .home {
+        height: 100svh;
+        display: grid; /* For modern browsers */
+    }
+    
+    .home .home-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .home .home-container .box-item {
+        height: 67vh;
+        margin-top: 180px;
+        width: 80%;
+        max-width: 1400px;
+        border-radius: 25px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.267);
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 800px);
+    }
+
+    
+    .home .home-container .home-box-item {
+        padding: 35px 90px;
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .home .home-container .home-box-item h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .home .home-container .home-box-item p {
+        text-align: left;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .home .home-container .location {
+        padding: 63px 60px;
+        font-size: 20px;
+        font-weight: 500;
+     }
+    
+     .home .home-container .location h1 {
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .home .home-container .location p {
+        text-align: left;
+    }
+    
+    .home .btn {
+        padding: 0.6rem 1.3rem;
+        background-color: #2e4fdf;
+        border: 2px solid #fafafa;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 1;
+        border-radius: 25px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 240px;
+        text-decoration: none;
+    }
+    
+    .home .btn:hover {
+        background-color: rgb(83, 83, 224);
+        color: #fff;
+    }
+    
+}
+
+
 @media only screen and (max-width:1200px) {
     .home {
         height: 100svh;
@@ -376,7 +468,6 @@ nav .home-link{
         margin-top: 180px;
         width: 80%;
         max-width: 1400px;
-        background-color: rgb(241, 239, 239);
         border-radius: 25px;
         box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.267);
         overflow: hidden;
@@ -403,10 +494,8 @@ nav .home-link{
     }
     
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 63px 60px;
         font-size: 20px;
-        color: rgb(255, 255, 255);
         font-weight: 500;
      }
     
@@ -470,7 +559,6 @@ nav .home-link{
     .home .home-container .home-box-item {
         padding: 55px 70px;
         margin-left: 10px;
-        color: black;
         font-weight: 500;
         margin-bottom: 20px;
         text-align: center;
@@ -493,7 +581,6 @@ nav .home-link{
     
     .home .btn {
         padding: 0.8rem 1.3rem;
-        background-color: #2e4fdf;
         border: 0px solid #fafafa;
         font-size: 1.5rem;
         font-weight: 500;
@@ -508,7 +595,6 @@ nav .home-link{
     }
     
     .home .btn:hover {
-        background-color: rgb(83, 83, 224);
         color: #fff;
     }
 
@@ -517,9 +603,7 @@ nav .home-link{
     }
 
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 60px 85px;
-        color: rgb(255, 255, 255);
         font-weight: 500;
         width: 100%;
         height: 100%;
@@ -583,8 +667,6 @@ nav .home-link{
     
     .home .btn {
         padding: 0.5rem 1.2rem;
-        background-color: #2e4fdf;
-        border: 2px solid #fafafa;
         font-size: 1.7rem;
         font-weight: 600;
         color: #ffffff;
@@ -598,14 +680,11 @@ nav .home-link{
     }
     
     .home .btn:hover {
-        background-color: rgb(83, 83, 224);
         color: #fff;
     }
 
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 55px 75px;
-        color: rgb(255, 255, 255);
         font-weight: 500;
         width: 80%;
      }
@@ -675,7 +754,6 @@ nav .home-link{
     }
 
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 75px 75px;
         color: rgb(255, 255, 255);
         font-weight: 500;
@@ -700,7 +778,6 @@ nav .home-link{
 
     .home .btn {
         padding: 0.6rem 1.3rem;
-        background-color: #2e4fdf;
         border: 2px solid #fafafa;
         font-size: 2rem;
         font-weight: 600;
@@ -716,7 +793,6 @@ nav .home-link{
     }
     
     .home .btn:hover {
-        background-color: rgb(83, 83, 224);
         color: #fff;
     }
 }
@@ -770,7 +846,6 @@ nav .home-link{
     }
 
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 75px 90px;
         font-size: 30px;
         color: rgb(255, 255, 255);
@@ -792,7 +867,6 @@ nav .home-link{
 
     .home .btn {
         padding: 0.6rem 1.3rem;
-        background-color: #2e4fdf;
         border: 2px solid #fafafa;
         font-size: 2rem;
         font-weight: 600;
@@ -807,7 +881,6 @@ nav .home-link{
     }
     
     .home .btn:hover {
-        background-color: rgb(83, 83, 224);
         color: #fff;
     }
 }
@@ -861,10 +934,8 @@ nav .home-link{
     }
 
     .home .home-container .location {
-        background-color: #2e4fdf;
         padding: 75px 90px;
         font-size: 30px;
-        color: rgb(255, 255, 255);
         font-weight: 500;
         width: 80%;
      }
@@ -883,7 +954,6 @@ nav .home-link{
 
     .home .btn {
         padding: 0.6rem 1.3rem;
-        background-color: #2e4fdf;
         border: 2px solid #fafafa;
         font-size: 2rem;
         font-weight: 600;
@@ -898,7 +968,6 @@ nav .home-link{
     }
     
     .home .btn:hover {
-        background-color: rgb(83, 83, 224);
         color: #fff;
     }
 }
@@ -990,6 +1059,14 @@ nav .home-link{
 
 }
 
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        .services .box1 {
+            background-color: rgb(32, 30, 30);
+            border: 4px solid hsl(209, 100%, 55%);
+        }
+    }
+
 .services .box2 {
     background: rgb(26, 68, 255) ;
     grid-area: box2;
@@ -1014,6 +1091,15 @@ nav .home-link{
     box-shadow: 0 4px 6px rgb(83, 83, 83);
 
 }
+
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        .services .box3 {
+            background-color: rgb(32, 30, 30);
+            border: 4px solid hsl(209, 100%, 55%);
+        }
+    }
+
 
 
 /*SERVICES MEDIA QUERIES*/
@@ -1511,6 +1597,15 @@ nav .home-link{
     grid-template-columns: repeat(2, 1fr);
 }
 
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        .contact .container .form {
+            background-color: rgb(32, 30, 30);
+            border: 4px solid hsl(209, 100%, 55%);
+        }
+    }
+
+
  .contact .container .contact-form {
     background-color: #2e4fdf;
     position: relative;
@@ -1541,7 +1636,7 @@ form {
 .input {
     width: 100%;
     outline: none;
-    border: 2px solid #fafafa;
+    border: 2px solid #fff;
     background: none;
     padding: 0.6rem 1.2rem;
     color: #fff;
@@ -1550,6 +1645,13 @@ form {
     letter-spacing: 0.5px;
     border-radius: 25px;
     transition: .3s;
+}
+
+@media (prefers-color-scheme: dark) {
+    .input {
+        border: 2px solid #fff;
+        background: rgb(24, 40, 255);
+    }
 }
 
 input::placeholder {
@@ -1570,7 +1672,7 @@ textarea.input {
 
 .contact .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
+    background-color: white;
     border: 2px solid #fafafa;
     font-size: 1.2rem;
     font-weight: 600;
@@ -1583,10 +1685,19 @@ textarea.input {
     margin: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+    .contact .btn {
+        background-color: rgb(24, 40, 255);
+        color: #fff;
+    }
+}
+
+
 .contact .btn:hover {
     background-color: transparent;
     color: #fff;
 }
+
 
 .contact .container .form .contact-info .social-media img {
     height: 200px;
@@ -1650,7 +1761,6 @@ textarea.input {
         height: 90vh;
         margin-top: 0px;
         display: grid; /* For modern browsers */
-        background: white;
         font-size: 20px;
         color: black;
         font-weight: 500;
@@ -1693,7 +1803,6 @@ textarea.input {
     }
     
     .title {
-        color: #fff;
         font-weight: 500;
         font-size: 1,5rem;
         line-height: 1;
@@ -1709,10 +1818,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 0.95rem;
         letter-spacing: 0.5px;
@@ -1720,13 +1826,6 @@ textarea.input {
         transition: .3s;
     }
     
-    input::placeholder {
-        color: rgb(255, 255, 255);
-    }
-    
-    textarea::placeholder {
-        color: rgb(255, 255, 255);
-    }
     
     textarea.input {
         padding: 0.8rem 1.2rem;
@@ -1738,20 +1837,14 @@ textarea.input {
     
     .contact .btn {
         padding: 0.6rem 1.3rem;
-        border: 2px solid #fafafa;
         font-size: 1.2rem;
         font-weight: 600;
-        color: #2e4fdf;
         line-height: 1;
         border-radius: 25px;
         outline: none;
         cursor: pointer;
         transition: 0.3s;
         margin: 0;
-    }
-    
-    .contact .btn:hover {
-        color: #fff;
     }
     
     .contact .container .form .contact-info .social-media img {
@@ -1783,7 +1876,6 @@ textarea.input {
     }
     
     .contact-info .title {
-        color: #0805cc;
         margin-bottom: 20px;
     }
     
@@ -1792,13 +1884,11 @@ textarea.input {
     }
     
     .contact-info .text {
-        color: #333;
         margin-bottom: 20px;
     }
     
     .information {
         display: flex;
-        color: #555;
         margin: 0.7rem 0;
         align-items: center;
         font-size: 0.95rem;
@@ -1890,7 +1980,6 @@ textarea.input {
     }
 
     .title /*Email Us*/ {
-        color: #fff;
         font-weight: 500;
         font-size: 33px;
         line-height: 1;
@@ -1905,10 +1994,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.5px;
@@ -1918,11 +2004,8 @@ textarea.input {
 
     .contact .btn {
         padding: 0.5rem 1.3rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
         font-size: 25px;
         font-weight: 600;
-        color: #2e4fdf;
         line-height: 1;
         border-radius: 25px;
         outline: none;
@@ -1963,9 +2046,7 @@ textarea.input {
         margin-top: 0px;
         margin-bottom: 0px;
         max-width: 1000px;
-        background-color: white;
         border-radius: 25px;
-        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
         z-index: 2;
         overflow: hidden;
         display: grid;
@@ -2032,7 +2113,6 @@ textarea.input {
     }
 
     .title /*Email Us*/ {
-        color: #fff;
         font-weight: 500;
         font-size: 37px;
         line-height: 1;
@@ -2047,10 +2127,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 25px;
         letter-spacing: 0.5px;
@@ -2060,12 +2137,9 @@ textarea.input {
 
     .contact .btn {
         padding: 0.8rem 1.5rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
         font-size: 35px;
         font-weight: 600;
         color: #2e4fdf;
-        line-height: 1;
         border-radius: 25px;
         outline: none;
         cursor: pointer;
@@ -2091,9 +2165,7 @@ textarea.input {
         margin-top: 0px;
         margin-bottom: 0px;
         width: 100%;
-        background-color: rgb(255, 255, 255);
         border-radius: 25px;
-        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
         z-index: 2;
         overflow: hidden;
         display: grid;
@@ -2169,7 +2241,6 @@ textarea.input {
     }
 
     .title /*Email Us*/ {
-        color: #fff;
         font-weight: 500;
         font-size: 44px;
         line-height: 1;
@@ -2184,10 +2255,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 33px;
         letter-spacing: 0.5px;
@@ -2197,11 +2265,8 @@ textarea.input {
 
     .contact .btn {
         padding: 1rem 1.8rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
         font-size: 44px;
         font-weight: 600;
-        color: #2e4fdf;
         line-height: 1;
         border-radius: 25px;
         outline: none;
@@ -2231,9 +2296,7 @@ textarea.input {
         margin-top: 150px;
         margin-bottom: 0px;
         width: 100%;
-        background-color: rgb(255, 255, 255);
         border-radius: 25px;
-        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
         z-index: 2;
         overflow: hidden;
         display: grid;
@@ -2310,7 +2373,6 @@ textarea.input {
     }
 
     .title /*Email Us*/ {
-        color: #fff;
         font-weight: 500;
         font-size: 44px;
         line-height: 1;
@@ -2325,10 +2387,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 30px;
         letter-spacing: 0.5px;
@@ -2338,11 +2397,8 @@ textarea.input {
 
     .contact .btn {
         padding: 1rem 1.8rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
         font-size: 44px;
         font-weight: 600;
-        color: #2e4fdf;
         line-height: 1;
         border-radius: 25px;
         outline: none;
@@ -2372,7 +2428,6 @@ textarea.input {
     .contact .container .form{
         margin-top: 0px;
         width: 100%;
-        background-color: rgb(255, 255, 255);
         border-radius: 25px;
         box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
         z-index: 2;
@@ -2449,7 +2504,6 @@ textarea.input {
     }
 
     .title /*Email Us*/ {
-        color: #fff;
         font-weight: 500;
         font-size: 44px;
         line-height: 1;
@@ -2464,10 +2518,7 @@ textarea.input {
     .input {
         width: 100%;
         outline: none;
-        border: 2px solid #fafafa;
-        background: none;
         padding: 0.6rem 1.2rem;
-        color: #fff;
         font-weight: 500;
         font-size: 30px;
         letter-spacing: 0.5px;
@@ -2477,11 +2528,8 @@ textarea.input {
 
     .contact .btn {
         padding: 1rem 1.8rem;
-        background-color: #fff;
-        border: 2px solid #fafafa;
         font-size: 44px;
         font-weight: 600;
-        color: #2e4fdf;
         line-height: 1;
         border-radius: 25px;
         outline: none;
