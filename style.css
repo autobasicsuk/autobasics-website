@@ -275,7 +275,7 @@ nav .home-link{
 
 
 .home {
-    height: 100svh;
+    height: 100vh;
     display: grid; /* For modern browsers */
 }
 
